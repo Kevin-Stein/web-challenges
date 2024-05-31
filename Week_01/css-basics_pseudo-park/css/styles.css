@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.park {
+  margin: 16px;
+  border: 2px dashed silver;
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: lightgoldenrodyellow;
+}
+
+.animal {
+  padding: 16px;
+  font-size: 32px;
+}
+.crocodile:hover{
+  background-color: lightblue;
+}
+.giraffe{
+  text-align: center;
+}
+.giraffe:hover{
+  background-color: lightgreen;
+}
+.dino{
+  text-align: right;
+}
+.dino:hover{
+  background-color: lightsalmon;
+}

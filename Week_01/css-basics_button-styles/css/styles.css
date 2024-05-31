@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+
+section {
+  background-color: lemonchiffon;
+  display: grid;
+  place-items: center;
+}
+
+.skyblue {
+  background-color: skyblue;
+}
+
+button {
+  background-color: white;
+  padding: 8px 25px;
+}
+
+.button1 {
+  border-radius: 5px 20px ;
+}
+
+.button2 {
+
+color: rgb(255, 0, 242);
+}
+.button2:hover{
+  background-color: rgb(0, 0, 0);
+}
+.button3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;
+}
+
+.button4 {
+  box-shadow: 10px 5px 5px rgb(126, 124, 124);
+}
+
