@@ -1,0 +1,15 @@
+.card {
+  width: 350px;
+  height: 200px;
+  padding: 20px;
+  padding-bottom: 40px;
+  gap: 1.5rem;
+  border-radius: 20px;
+  background-color: var(--card-bg);
+  color: var(--card-text);
+  list-style-type: none;
+}
+
+.card--text {
+  line-height: 1rem;
+}

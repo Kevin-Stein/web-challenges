@@ -17,7 +17,7 @@ body {
   transition: 0.4s ease;
 }
 
-body.dark {
+.dark {
   background-color: rgb(50, 51, 58);
   color: white;
 }
