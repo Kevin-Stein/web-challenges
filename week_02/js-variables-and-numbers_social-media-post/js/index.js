@@ -15,6 +15,7 @@ const theTitle = "Social Media Post";
 const theText = "Welcome to this exercise! Please open the console before you start.";
 let likeNumbers = 0;
 const user = "ShinyMcChicken"
+const isReported = true;
 // let user = "user"
 
 // --^-- write your code here --^--
@@ -24,9 +25,10 @@ const user = "ShinyMcChicken"
 */
 
 // --v-- write your code here --v--
-likeNumbers++;
+likeNumbers++
 console.log (theTitle)
 console.log (theText)
 console.log (user)
 console.log (likeNumbers)
+console.log (isReported)
 // --^-- write your code here --^--
