@@ -1,18 +1,12 @@
-# basic calculations JS js-functions-2 Session
+# input-to-uppercase
 
 ## Task
 
-- Open the `./index.js` file and follow the instructions given there.
-
 ## Notes
 
-- You only have to touch the `./index.js` file.
+- You only have to touch the `./js/index.js` file.
 
 ## Development
-
-> ❗️ This project is JavaScript only. Please check the browser console (<kbd>⌥</kbd><kbd>⌘</kbd><kbd>I</kbd>) for the output or run the tests to see the results.
-
-### Local Development
 
 To work locally, please install the dependencies using `npm i` first.
 
