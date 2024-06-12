@@ -2,8 +2,6 @@ console.clear();
 
 const form = document.querySelector('[data-js="form"]');
 
-
-
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
@@ -13,13 +11,14 @@ form.addEventListener("submit", (event) => {
 
   event.target.reset();
   formElements.firstName.focus();
-
-  console.log(data);
 });
 
 form.addEventListener("input", (event) => {
-    const firstName = event.target.firstName;
-    
+  const formData = new FormData(event.target);
+  const data = Object.fromEntries(formData);
+  
+  const firstName = event.target.firstname;
+  const age = event.target.age;
 
-    console.log(firstName)
-  })
+  console.log(badCalc);
+});
